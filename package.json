@@ -1,0 +1,24 @@
+{
+  "name": "vue3-typescript-component",
+  "version": "0.0.1",
+  "description": "Minimal setup for Vue 3 with webpack and typescript",
+  "main": "index.ts",
+  "author": "Lorenzo Millucci",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "3.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "3.0.0-alpha.8",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "vue-loader": "16.0.0-alpha.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "yarn": "^1.22.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server"
+  }
+}
